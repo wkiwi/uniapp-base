@@ -10,7 +10,7 @@ uniapp脚手架，工程化目录，包含VueX,$bus,请求拦截，node模拟数
 # 启动node服务
  - $ npm run start
 
-
+# bus传值
 ```
   //使用方式
   Vue.use(Bus)
