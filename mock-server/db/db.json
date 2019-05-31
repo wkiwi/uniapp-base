@@ -1,0 +1,292 @@
+{
+  "cart": {
+    "total": 376,
+    "items": [
+      {
+        "product_id": 4,
+        "name": "埃塞俄比亚赛其索咖啡豆",
+        "image": "https://resources.ninghao.net/w-store/images/ethiopia.jpg",
+        "price": "198",
+        "quantity": 1,
+        "total": 198
+      },
+      {
+        "product_id": 3,
+        "name": "秘鲁琼卡丽咖啡豆",
+        "image": "https://resources.ninghao.net/w-store/images/peru-chontali.jpg",
+        "price": "178",
+        "quantity": 1,
+        "total": 178
+      }
+    ]
+  },
+  "users": [
+    {
+      "username": "wkiwi",
+      "password": "$2b$10$6ZvedoGgmOIiS1ts9u8y1.dwibAxGvfnwdJIqYnmoA0mVM3ATPgxy",
+      "id": 1
+    },
+    {
+      "username": "admin",
+      "password": "$2b$10$mc1uRuJtMydg/1wQvCLV3uLf5AL8mGgWiIhmzZobcngt5GfnqVwpe",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "坦桑尼亚穆丽瓦咖啡豆",
+      "description": "<h3>故事</h3>\n<p>塔里梅地区坐落于塞伦盖蒂平原和坦桑尼亚北部的维多利亚湖之因地处偏远，取水困难，大多数当地的咖啡种植农选择采用传统的西法加工处理咖啡豆。当地的一家合作社希望展现出该地区咖啡的所有特点，所以最近在穆丽瓦小镇建立了一个水洗站。咖啡种植农们开始将咖啡果送到穆丽瓦的湿加工处理厂进行水洗法处理成功地带来了这款全新的咖啡，入口清爽明亮，并伴有果香和茶般的清香一一花香四溢，优雅绵长。</p>\n<h3>设计</h3>\n<p><img class=\"alignnone size-full wp-image-78\" src=\"https://resources.ninghao.net/w-store/images/tanzania-muriba-01.jpg\" alt=\"\" width=\"784\" height=\"530\" /></p>\n<p>花香般风味和明亮口感，演化成为卡片上舞动的元素。插图流动的韵律致敬水洗站，色彩反映塞伦盖蒂多姿的风景和文化。</p>\n<h3>风味</h3>\n<p>花香四溢，并伴有佛手栏茶、柠檬和西柚般的风味。</p>\n",
+      "short_description": "<p>穆丽瓦水洗站克服取水的困难带来了这款口感纯净的全水洗咖啡豆。</p>\n",
+      "price": "78",
+      "regular_price": "178",
+      "sale_price": "78",
+      "on_sale": true,
+      "manage_stock": false,
+      "stock_quantity": null,
+      "stock_status": "instock",
+      "categories": [
+        {
+          "id": 1,
+          "name": "甄选咖啡",
+          "slug": "reserve"
+        }
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "name": "咖啡豆",
+          "slug": "whole-bean"
+        },
+        {
+          "id": 2,
+          "name": "阿拉比卡",
+          "slug": "arabica"
+        }
+      ],
+      "images": [
+        {
+          "id": 79,
+          "src": "https://resources.ninghao.net/w-store/images/tanzania-muriba-e1548378296332.jpg",
+          "name": "tanzania-muriba"
+        },
+        {
+          "id": 5,
+          "src": "https://resources.ninghao.net/w-store/images/reserve-poster.jpg",
+          "name": "reserve-poster"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "name": "产地",
+          "position": 0,
+          "visible": true,
+          "variation": false,
+          "options": [
+            "埃塞俄比亚赛"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "品牌",
+          "position": 1,
+          "visible": true,
+          "variation": false,
+          "options": [
+            "Starbucks / 星巴克"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "哥斯达黎加纳兰诺咖啡豆",
+      "description": "<h3>故事</h3>\n<p>纳兰诺合作社由一群小型种植农组建而成，他们希望通过该合作社发展当地咖啡社区，改善家人、朋友和邻里乡亲的生活。随着合作社的发展，他们开始投资发展农学教育、农业技术和清洁能源。合作社的成员们推行可持续的实践方法，提高咖啡品质，帮助新的成员培养相关能力。通过努力，纳兰诺已成为知名的咖啡原产地，我们很荣幸与您分享动人的故事和这款美妙的咖啡。</p>\n<h3>设计</h3>\n<p><img class=\"alignnone size-full wp-image-76\" src=\"https://resources.ninghao.net/w-store/images/costa-rica-naranjo-01.jpg\" alt=\"\" width=\"784\" height=\"530\" /></p>\n<p>灵感来自哥斯达黎加传统工艺ー一牛车相橘花是卡片的焦点浆果图案像太阳的光芒一样代表聚集的小型咖啡农场变得更加卓越。</p>\n<h3>风味</h3>\n<p>由子和柠檬般的清新酸度，并伴有牛奶巧克力般的甜味。</p>\n",
+      "short_description": "<p>纳兰诺合作社的不懈努力带来卓越咖啡。</p>\n",
+      "price": "178",
+      "regular_price": "178",
+      "sale_price": "",
+      "on_sale": false,
+      "manage_stock": false,
+      "stock_quantity": null,
+      "stock_status": "instock",
+      "categories": [
+        {
+          "id": 1,
+          "name": "甄选咖啡",
+          "slug": "reserve"
+        }
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "name": "咖啡豆",
+          "slug": "whole-bean"
+        },
+        {
+          "id": 2,
+          "name": "阿拉比卡",
+          "slug": "arabica"
+        }
+      ],
+      "images": [
+        {
+          "id": 2,
+          "src": "https://resources.ninghao.net/w-store/images/costa-rica-naranjo.jpg",
+          "name": "costa-rica-naranjo"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "name": "产地",
+          "position": 0,
+          "visible": true,
+          "variation": false,
+          "options": [
+            "埃塞俄比亚赛"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "品牌",
+          "position": 1,
+          "visible": true,
+          "variation": false,
+          "options": [
+            "Starbucks / 星巴克"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "秘鲁琼卡丽咖啡豆",
+      "description": "<h3>故事</h3>\n<p>在秘鲁的琼卡丽地区，咖啡专家向新一代的种植者分享知识并提供技术支持，共同致力于完善咖啡豆的品质，塑造经典卓越的咖啡风味体验。秘鲁北部高地偏远区被峭壁围绕的山谷，为咖啡豆提供卓越的生长条件。琼卡丽的崎岖地貌让道路基础建设成为挑战，这些种植者们互相协作、競兢业业，让人钦佩，这也是星巴克全球第年采购这款咖啡。</p>\n<h3>设计</h3>\n<p><img class=\"alignnone size-full wp-image-71\" src=\"https://resources.ninghao.net/w-store/images/peru-chontali-01.jpg\" alt=\"\" width=\"784\" height=\"530\" /></p>\n<p>设计灵感来源于咖啡与人的紧密联系。其色彩和元素也展现了秘鲁当地的咖啡种植风貌</p>\n<h3>风味</h3>\n<p>果汁般酸度、红苹果和甜渍柠檬般的风味，以及可可般的柔顺口感。</p>\n",
+      "short_description": "<p>一份走出大山的醇香。</p>\n",
+      "price": "178",
+      "regular_price": "178",
+      "sale_price": "",
+      "on_sale": false,
+      "manage_stock": false,
+      "stock_quantity": null,
+      "stock_status": "outofstock",
+      "categories": [
+        {
+          "id": 18,
+          "name": "甄选咖啡",
+          "slug": "reserve"
+        }
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "name": "咖啡豆",
+          "slug": "whole-bean"
+        },
+        {
+          "id": 2,
+          "name": "阿拉比卡",
+          "slug": "arabica"
+        }
+      ],
+      "images": [
+        {
+          "id": 3,
+          "src": "https://resources.ninghao.net/w-store/images/peru-chontali.jpg",
+          "name": "peru-chontali"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "name": "产地",
+          "position": 0,
+          "visible": true,
+          "variation": false,
+          "options": [
+            "埃塞俄比亚赛"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "品牌",
+          "position": 1,
+          "visible": true,
+          "variation": false,
+          "options": [
+            "Starbucks / 星巴克"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "埃塞俄比亚赛其索咖啡豆",
+      "description": "<h3>故事</h3>\n<p>为了让埃塞俄比亚赛其索地区的农民有更多机会与世界分享他们的咖啡，阿博特·博鲁(AbyotBoru)收购了当地水洗站。将自己的咖啡浆果推广到各水洗站后，他收购了一家咖啡加工厂，在当地咖啡贸易中有了更多发言权。阿博特的水洗站为奥洛米亚地区的小型种植农提供服务,该区是他父亲曾种植咖啡的地方。他为埃塞俄比亚咖啡付出毕生心血，这种激情体现在这款咖啡中：成熟浆果般的风味，茉莉花般的香气和香料般的风味，互相融合，回味无穷。</p>\n<h3>设计</h3>\n<p><img class=\"alignnone size-full wp-image-53\" src=\"https://resources.ninghao.net/w-store/images/ethiopia-shakiso-01.jpg\" alt=\"\" width=\"784\" height=\"530\" /></p>\n<p>豆卡设计灵感蓝色代表水洗法加工过程中流动的水流笔触、线条代表水洗加工站给社区注入的能量所有元素汇聚在一起象征着注入每杯咖啡的合作精神。</p>\n",
+      "short_description": "<p>阿博特的水洗站和他对咖啡品质的追求共同呈现这杯独特的风味。</p>\n",
+      "sku": "ethiopia-shakiso",
+      "price": "198",
+      "regular_price": "198",
+      "sale_price": "",
+      "on_sale": false,
+      "manage_stock": true,
+      "stock_quantity": 666,
+      "stock_status": "instock",
+      "categories": [
+        {
+          "id": 1,
+          "name": "甄选咖啡",
+          "slug": "reserve"
+        }
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "name": "咖啡豆",
+          "slug": "whole-bean"
+        },
+        {
+          "id": 2,
+          "name": "阿拉比卡",
+          "slug": "arabica"
+        }
+      ],
+      "images": [
+        {
+          "id": 4,
+          "src": "https://resources.ninghao.net/w-store/images/ethiopia.jpg",
+          "name": "ethiopia"
+        },
+        {
+          "id": 5,
+          "src": "https://resources.ninghao.net/w-store/images/reserve-poster.jpg",
+          "name": "reserve-poster"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "name": "产地",
+          "position": 0,
+          "visible": true,
+          "variation": false,
+          "options": [
+            "埃塞俄比亚赛"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "品牌",
+          "position": 1,
+          "visible": true,
+          "variation": false,
+          "options": [
+            "Starbucks / 星巴克"
+          ]
+        }
+      ]
+    }
+  ]
+}
