@@ -3,6 +3,27 @@
 ## 介绍
 uniapp脚手架，工程化目录，包含VueX,$bus,请求拦截，node模拟数据后端等
 
+# 安装依赖
+ - $ uni-app-base
+ - $ npm install
+
+# 启动node服务
+ - $ npm run start
+
+
+```
+  //使用方式
+  Vue.use(Bus)
+  this.$bus('eventName', id);
+  
+  bus: {
+   eventName(id) {
+     console.log(id);
+   }
+  }
+
+```
+
 ## 项目目录
 ```
 .
@@ -53,3 +74,4 @@ ic_menu_back.png
 ic_menu_settings.png
 ic_tab_home.png
 ic_tab_mine.png
+
