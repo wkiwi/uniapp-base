@@ -1,44 +1,43 @@
 {
-    "pages": [ //pages数组中第一项表示应用启动页,
+	"pages": [ //pages数组中第一项表示应用启动页,
 		{
-            "path" : "pages/index/index",
-            "style" : {}
-        }
-        ,{
-            "path" : "pages/mine/mine",
-            "style" : {}
-        }
-        ,{
-            "path" : "pages/demo/demo",
-            "style" : {}
-        }
-    ],
-    "tabBar": {
-        "color": "#7a7e83",
-        "selectedColor": "#0faeff",
-        "backgroundColor": "#ffffff",
-        "list": [{
-            "pagePath": "pages/index/index",
-            "text": "首页",
-            "iconPath": "static/img/home.png",
-            "selectedIconPath": "static/img/homeHL.png"
-        }, {
-            "pagePath": "pages/mine/mine",
-            "text": "我的",
-            "iconPath": "static/img/user.png",
-            "selectedIconPath": "static/img/userHL.png"
-        },
-		{
-            "pagePath": "pages/demo/demo",
-            "text": "测试",
-            "iconPath": "static/img/user.png",
-            "selectedIconPath": "static/img/userHL.png"
-        }]
-    },
-    "globalStyle": {
-        "navigationBarTextStyle": "white",
-        "navigationBarBackgroundColor": "#0faeff",
-        "backgroundColor": "#fbf9fe",
+			"path": "pages/index/index",
+			"style": {}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {}
+		}, {
+			"path": "pages/demo/demo",
+			"style": {}
+		}
+	],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#0faeff",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/img/home.png",
+				"selectedIconPath": "static/img/homeHL.png"
+			}, {
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/img/user.png",
+				"selectedIconPath": "static/img/userHL.png"
+			},
+			{
+				"pagePath": "pages/demo/demo",
+				"text": "测试",
+				"iconPath": "static/img/user.png",
+				"selectedIconPath": "static/img/userHL.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#0faeff",
+		"backgroundColor": "#fbf9fe",
 		"navigationBarTitleText": "uni脚手架"
-    }
+	}
 }

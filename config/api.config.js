@@ -1,3 +1,10 @@
+/*
+ * @Author: wkiwi
+ * @Email: w_kiwi@163.com
+ * @Date: 2019-05-31 09:42:18
+ * @LastEditors: wkiwi
+ * @LastEditTime: 2019-11-05 20:59:54
+ */
 import AppConfig from './app.config';
 
 const { BASE_URL } = AppConfig;
@@ -19,6 +26,7 @@ export default {
 	},
 	
 	APP_BASE_API:{
+    QNY_TOKEN: `${BASE_URL}/img/code`,//获取七牛云token
 		LOGIN_URL: `${BASE_URL}/login`,
     VALIDATE_TOKEN_URL: `${BASE_URL}/token/validate`,
     SIGNUP_URL: `${BASE_URL}/auth/signup`,

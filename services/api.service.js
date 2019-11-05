@@ -1,3 +1,10 @@
+/*
+ * @Author: wkiwi
+ * @Email: w_kiwi@163.com
+ * @Date: 2019-05-31 09:47:48
+ * @LastEditors: wkiwi
+ * @LastEditTime: 2019-11-05 21:07:49
+ */
 import ApiClinet from './api-clinet';
 import ApiConfig from '../config/api.config';
 
@@ -56,7 +63,10 @@ export const UserService = {
 export const AppOtherService = {
   getMessageList(params) {
     return ApiClinet.get(ApiConfig.APP_BASE_API.OTHER, params, HeaderTypr); //更改header类型
-  },	
+  },
+  getQnyToken(params){
+		return ApiClinet.get(ApiConfig.APP_BASE_API.QNY_TOKEN,params);
+	}	
 };
 
 
