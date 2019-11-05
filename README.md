@@ -11,7 +11,6 @@
 uniapp脚手架，工程化目录，包含VueX,$bus,请求拦截，node模拟数据后端等
 
 # 安装依赖
- - $ uni-app-base
  - $ npm install
 
 # 启动node服务
