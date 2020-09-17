@@ -1,3 +1,10 @@
+/*
+ * @Author: wkiwi
+ * @Email: w_kiwi@163.com
+ * @Date: 2020-09-17 13:47:48
+ * @LastEditors: wkiwi
+ * @LastEditTime: 2020-09-17 13:51:33
+ */
 /* eslint-disable */
 
 class AuthService {
@@ -6,17 +13,64 @@ class AuthService {
   }
 
   set(auth) {
-    uni.setStorageSync('auth', auth);
+		try {
+			uni.setStorageSync('auth', auth);
+		} catch (error) {
+		  console.log(`setStorageSync调用失败`);
+		}
   }
-
+	
+	setToken(token) {
+		try {
+			uni.setStorageSync('token', token);
+		} catch (error) {
+		  console.log(`setStorageSync调用失败`);
+		}
+	}
+	
   get() {
-    const auth = uni.getStorageSync('auth');
-    return auth || {};
+		try {
+			const auth = uni.getStorageSync('auth');
+			return auth || {};
+		} catch (error) {
+		  console.log(`getStorageSync调用失败`);
+		}
   }
-
+	
+	getToken(){
+		try {
+			const token = uni.getStorageSync('token');
+			return token || '';
+		} catch (error) {
+		  console.log(`getStorageSync调用失败`);
+		}
+	}
+	
+	getAppName(){
+		try {
+			const appName = uni.getStorageSync('appName');
+			return appName || '';
+		} catch (error) {
+		  console.log(`getStorageSync调用失败`);
+		}
+	}
+	
+	setAppName(appName){
+		try {
+			uni.setStorageSync('appName', appName);
+		} catch (error) {
+		  console.log(`setStorageSync调用失败`);
+		}
+	}
+	
   clear() {
-    this.auth = {};
-    uni.removeStorageSync('auth');
+		try {
+			this.auth = {};
+			uni.removeStorageSync('auth');
+			uni.removeStorageSync('token');
+		} catch (error) {
+		  console.log(`getStorageSync调用失败`);
+		}
   }
 
   index() {
@@ -27,7 +81,7 @@ class AuthService {
   logout() {
     this.clear();
     // 用户注销
-    
+     
     // 跳转到登录页面
    
   }

@@ -36,7 +36,32 @@ const HeaderTypr = {
 export const UserService = {
   // 用户登录
   login(params) {
-    return ApiClinet.post(ApiConfig.APP_BASE_API.LOGIN_URL, params);
+    if (
+      AppConfig.PROVIDER == "weixin" ||
+      AppConfig.PROVIDER == "qq" ||
+      AppConfig.PROVIDER == "toutiao"
+    ) {
+      //微信或QQ登陆
+      return new Promise((resolve, reject) => {
+        uni.login({
+          provider: AppConfig.PROVIDER,
+          success: result=> {
+            ApiClinet.post(ApiConfig.APP_BASE_API.LOGIN_URL, {
+              code: result.code
+            })
+            .then(res=>{
+              resolve(res);
+            })
+            .catch(err=>{
+              resolve(err);
+            })
+          },
+        });
+      });
+    } else {
+      //其他登陆方式
+      return ApiClinet.post(ApiConfig.APP_BASE_API.LOGIN_URL, params);
+    }
   },
 	// 查询用户
   get(params) {
