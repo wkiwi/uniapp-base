@@ -3,24 +3,23 @@
  * @Email: w_kiwi@163.com
  * @Date: 2020-06-10 13:55:48
  * @LastEditors: wkiwi
- * @LastEditTime: 2020-11-27 10:36:33
+ * @LastEditTime: 2023-05-17 11:01:09
 --> 
 # uniapp脚手架
 
-## Project setup
+## 安装依赖
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### 本地运行
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### 打包
 ```
 yarn build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### master分支为HBuilderX版本，默认分支为cli版本

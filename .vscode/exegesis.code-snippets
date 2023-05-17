@@ -1,0 +1,11 @@
+{
+	"Print to consoleLog": {
+		"prefix": "lg",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "console.log()"
+	}
+
+}

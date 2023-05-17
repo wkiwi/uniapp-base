@@ -1,0 +1,8 @@
+{
+  "css.styleSheets": [
+    "/src/styles/base.css",
+    "/src/styles/aliicon.css",
+    "/src/styles/border.css",
+    "/src/styles/common.css",
+  ]
+}
