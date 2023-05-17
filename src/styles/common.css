@@ -1,0 +1,154 @@
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+/* css 滤镜 控制黑白底色gif的 */
+.gif-black {
+  mix-blend-mode: screen;
+}
+.gif-white {
+  mix-blend-mode: multiply;
+}
+
+.skeleton {
+  /* 宽度和高度根据要展示元素大小设定 */
+  /* 以下代码实现背景动画效果 */
+  animation: skeletonLoading 1.4s ease infinite;
+  -webkit-animation: skeletonLoading 1.4s ease infinite;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(25%, #f1f1f1),
+    color-stop(37%, #ffffff),
+    color-stop(63%, #f1f1f1)
+  );
+  background-image: -o-linear-gradient(
+    left,
+    #f1f1f1 25%,
+    #ffffff 37%,
+    #f1f1f1 63%
+  );
+  background-image: linear-gradient(
+    90deg,
+    #f1f1f1 25%,
+    #ffffff 37%,
+    #f1f1f1 63%
+  );
+  background-size: 400% 100%;
+}
+
+@-webkit-keyframes skeletonLoading {
+  0% {
+    background-position: 100% 50%;
+  }
+
+  to {
+    background-position: 0 50%;
+  }
+}
+
+@keyframes skeletonLoading {
+  0% {
+    background-position: 100% 50%;
+  }
+
+  to {
+    background-position: 0 50%;
+  }
+}
+
+/* 弹出式一次性弹窗 */
+.popups {
+  position: fixed;
+  left: 50%;
+  top: 45%;
+  width: 85vw;
+  z-index: 999;
+  background: #fff;
+  border-radius: 10rpx;
+  transform: translate(-50%, -50%);
+  transform-origin: 0% 0%;
+  animation: windowScale 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s 1;
+}
+.popups .close {
+  position: absolute;
+  right: 25upx;
+  top: 25upx;
+  color: #ccc;
+  font-size: 32upx;
+}
+
+@keyframes windowScale {
+  0% {
+    transform: scale(0.4, 0.4) translate(-50%, -50%);
+  }
+
+  60% {
+    transform: scale(1.05, 1.05) translate(-50%, -50%);
+  }
+
+  80% {
+    transform: scale(0.98, 0.98) translate(-50%, -50%);
+  }
+
+  100% {
+    transform: scale(1, 1) translate(-50%, -50%);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp ease 0.3s forwards;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+.animate-slide-down {
+  animation: slideDown ease 0.3s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn ease 0.3s forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.animate-fade-out {
+  animation: fadeOut ease 0.3s forwards;
+}

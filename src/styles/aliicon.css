@@ -1,0 +1,76 @@
+/*
+ * @Author: wkiwi
+ * @Email: w_kiwi@163.com
+ * @Date: 2019-10-15 14:03:41
+ * @LastEditors: wkiwi
+ * @LastEditTime: 2022-04-10 10:21:27
+ */
+
+/* -----------------------------------------------------------------------------
+  阿里icon    注意所有url必须为https:
+  ----------------------------------------------------------------------------- */
+
+@font-face {font-family: "number";
+  src: url('https://at.alicdn.com/t/font_1848198_u0z3y8ug82.eot?t=1590649110654'); /* IE9 */
+  src: url('https://at.alicdn.com/t/font_1848198_u0z3y8ug82.eot?t=1590649110654#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAScAAsAAAAACzgAAARNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCECgqISIcjATYCJAM0CxwABCAFhFUHZhutCciegW0bm4zNSJfqbxrfjY9YBNQwt1fTatfpLipCBbryCItjPEJlPI4+vnQL6n8+z3pD3ta/K5QaGNGkUSf9Xek2WSFdyEdJdwFEtm3wXxA1tGq12kzVBrQ4zH792q/ufWmGWCg7nd7O9sQXtSai7388MZRChEgU8cqQEqFQakcBdrbAI8EvE9BqkvGEneWX1kKsTHYCJjxnmS6IDVTLGYVBc1ATbszlB1Ga4xt+DcAL6/fDTzAai6gk5AtvHuaRkPkFPiREPP9pNQD05l4HBQnrgEx4mth8J8LpXSdC66c50nG2kzHjS8L//3wBQxusiuFRkpXvv7wmzVq0atNOqMhuO9a9DNR8AY2FD4FFEFgCgWUQWAGBVRBYEwisGQTWAgJrBYG1gUADi3fcMArYB/wnvAU5dWd8FRVlg920yd1RyEk6oTZXhh5PCqgGhTUojCxfdjck1zU2NNQ3CjUttbXYqajsbakeVlefWDutIey0BdQCDpXKtQ1JWm6u7HVEZEBVclsa26Qh1mxnk66coqSNjd2bjW9sK7+V0GLOFGFNjfG1UzRJ+NKBN1tCpX2hUCHTkXqtT9Uo+Y7PSNmipl3TtBo/V9f+iVA0ymimPfUad1RRB21VQf9vyvIM27hvQ/qjnllDN7XwRNpjqKV2amHZ0/tdrC7JK8mtLMkpObtcqsnb8R125M3WUJlSrNJjjbJVTb3WP5E77dRypIym29NaKuxTB1/3eiNPpT9asmHYRsaT7Rna4dX97zRUFFXU11cUVjzeO2xTi9C6t7/GI0OFdEfaNUVFyv1NEudU1StucNPdY97hwaa+ml/HVwG2fOXoix1rm+avnVvxa3bZztWpt0lWs8zBdqbdhvUtL2lKxvY8xxJoAyg7uVyjI8+Zz7lw4i04JnifcvRE8tHou9nWEOheSD1/UT0cZv2DhiRGTMfupd6I2UEZvpyUnJqsTVb6k0i/DVTFjl8F/Y8YNr0Mf+O9zvelI8X9dawAPn+dm9XVkKH5MZpFCuu3/l65CIDMGXJNR5ZWSfOum5yjwywx3FqsVWmnQbb38qIbf6BwN0EN6CxGTcYwqWalnFzGos2mXRX/BNhqjYzb2/ThEyHkCavMIDBo9wqjTq8xaXcv5eQbLAZ5jFW7v9jq1u8Htlm0Kj5HprowRaLuKYglJJFWb8LxYlDopuRqignyXbKkG1Y9OSfASiIyaPWhhgJK1I2qlwQmMkaMaUTLkoDya3kdxfMS8suSjyKwtgdjv1Ono5O+SUtIAsQ7JaN0wSgkRLcpECyCREQbhVj8YUGCbhRZNXEwI4jXRf4u89x6sjmArb4/woAWfaZU4IqOsOvpARMxjGClkYa0RplEtiLyB2NTn9E8CcKffJwPhYBp6anQ7edEp2xGF3W1k/KF/WxDHvLHO0KzG6bl5nC6uzw8vQjb4XqDCkYwgRksYAUb2I92RBESL4kRpIQBAAAAAA==') format('woff2'),
+  url('https://at.alicdn.com/t/font_1848198_u0z3y8ug82.woff?t=1590649110654') format('woff'),
+  url('https://at.alicdn.com/t/font_1848198_u0z3y8ug82.ttf?t=1590649110654') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('https://at.alicdn.com/t/font_1848198_u0z3y8ug82.svg?t=1590649110654#number') format('svg'); /* iOS 4.1- */
+}
+
+.number {
+  font-family: "number" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic_0:before {
+  content: "\e600";
+}
+
+.ic_01:before {
+  content: "\e601";
+}
+
+.ic_02:before {
+  content: "\e602";
+}
+
+.ic_03:before {
+  content: "\e603";
+}
+
+.ic_04:before {
+  content: "\e604";
+}
+
+.ic_05:before {
+  content: "\e605";
+}
+
+.ic_06:before {
+  content: "\e606";
+}
+
+.ic_07:before {
+  content: "\e607";
+}
+
+.ic_08:before {
+  content: "\e608";
+}
+
+.ic_09:before {
+  content: "\e609";
+}
+
+.ic_colon:before {
+  content: "\e60a";
+}
+
+.ic_dot:before {
+  content: "\e60b";
+}
